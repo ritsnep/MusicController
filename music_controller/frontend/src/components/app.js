@@ -1,5 +1,6 @@
 import React,{Component} from "react";
 import {render} from "react-dom";
+import HomePage from "./Homepage";
 
 
 export default class App extends Component{
@@ -7,7 +8,7 @@ export default class App extends Component{
         super(props);
     }
     render(){
-        return<h1>Testing React</h1>
+        return <HomePage />
     }
 
 }
